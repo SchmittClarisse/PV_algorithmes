@@ -17,11 +17,11 @@ class FirstExo {
         this.count++;
         if (this.list[i] + this.list[j] === this.k) {
           return console.log(
-            (result = true + `, number of comparisons: ${this.count}`)
+            (result = true + `, nombre de comparaisons/tours : ${this.count}`)
           );
         }
       }
-      return console.log(result + `, number of comparisons: ${this.count}`);
+      return console.log(result + `, nombre de comparaisons/tours : ${this.count}`);
     }
   }
 }

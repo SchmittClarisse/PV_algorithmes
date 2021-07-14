@@ -22,7 +22,7 @@ class SecondExo {
             this.buildingCount++
           }
         }
-        console.log(`Numbers of buildings can see sunset : ${this.buildingCount}. Numbers of comparisons : ${this.count}`)
+        console.log(`${this.buildingCount} d'immeubles peuvent voir le coucher de soleil. Il y a eu : ${this.count} comparaisons/tours`)
     }
 }
 new SecondExo(list)

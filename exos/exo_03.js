@@ -17,14 +17,14 @@ class ThirdExo {
     while (j > i) {
       this.count++;
       if (this.array[i] + this.array[j] === this.k) {
-        return console.log(true + `, number of comparaisons: ${this.count}`);
+        return console.log(true + `, nombre de comparaisons/tours : ${this.count}`);
       } else if (this.array[i] + this.array[j] > this.k) {
         j++;
       } else if (this.array[i] + this.array[j] < this.k) {
         i++;
       }
     }
-    return console.log(false + `, number of comparaisons: ${this.count}`);
+    return console.log(false + `, nombre de comparaisons/tours : ${this.count}`);
   }
 }
 
