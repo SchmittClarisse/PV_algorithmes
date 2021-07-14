@@ -8,9 +8,9 @@ class FirstExo {
     this.list = list;
     this.k = k;
     this.count = 0;
-    this.programm();
+    this.program();
   }
-  programm() {
+  program() {
     let result = false;
     for (let i = 0; i < this.list.length; i++) {
       for (let j = 1; j < this.list.length; j++) {
